@@ -7,10 +7,11 @@ body {
   font-weight: 400;
   line-height: 20px;
   background-color: #ffffff;
+  margin: 0;
   
 }
 
-.title_1 {
+.title1 {
   font-family: "Montserrat", sans-serif;
   font-size: 70px;
   font-weight: 400;
@@ -33,14 +34,14 @@ body {
 
   }
 
-.main_products-card {
+.main-products-card {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
   justify-content: center;
   width: 1110px;
   padding: 0;
-  margin-left: 30px;
+  margin-left: 86px;
   
 }
 
@@ -58,7 +59,7 @@ body {
   margin: 25px 25px 0 25px;
 }
 
-.title_3 {
+.title3 {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -68,7 +69,7 @@ body {
   text-transform: uppercase;
 }
 
-.title_2 {
+.title2 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: bold;
@@ -102,7 +103,7 @@ body {
     
 }
 
-.main_price {
+.main-price {
   display: flex;
   justify-content: space-between;
   margin: 25px 25px 25px 25px;
