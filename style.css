@@ -41,6 +41,7 @@ body {
   width: 1110px;
   padding: 0;
   margin-left: 86px;
+  list-style: none;
   
 }
 
@@ -118,5 +119,34 @@ body {
   font-size: 16px;
   color: #515076;
   display: inline-block;
+  
+}
+
+.main-btn {
+  display: flex;
+  justify-content: center;
+  gap: 43px;
+  margin: 0 auto 0 86px;
+  width: 1110px;
+  
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  background-color: #F7F7FA;
+  border: 1px solid #A5A3B9;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #515076;
+  cursor: pointer;
+  
+}
+
+.clrBtn {
+  background-color: #0c8ed4;
+  color: #fdf7f7;
+  border: 1px solid #ff3f3f;
   
 }
