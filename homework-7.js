@@ -9,12 +9,15 @@ const speedLight = 299792;
 function checkSpeed(speed) {
   if (speed > speedLight) {
     console.log('Сверхсветовая скорость');
-  } else {
+  } else if (speed === speedLight) {
+    console.log('Скорость света');
+  }else {
     console.log('Субсветовая скорость');
   }
 }
 checkSpeed(390000)
 checkSpeed(90000)
+checkSpeed(299792)
 
 //Вывод в консоль лог: покупка геодезического оборудования
 const productName = 'Тахеомерт Sokkia FX201';
