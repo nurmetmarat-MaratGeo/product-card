@@ -2,22 +2,22 @@
 function infTemperCity(city, temperature) {
   console.log(`Сейчас в городе ${city} температура — ${temperature} градусов по Цельсию`);
 }
-infTemperCity('Дербент', 36)
+infTemperCity('Дербент', 36);
 
 //Вывод в консоль лог: по заднному параметру вывод скорости света
-const speedLight = 299792;
+const SPEEDLIGHT = 299792;
 function checkSpeed(speed) {
-  if (speed > speedLight) {
+  if (speed > SPEEDLIGHT) {
     console.log('Сверхсветовая скорость');
-  } else if (speed === speedLight) {
+  } else if (speed === SPEEDLIGHT) {
     console.log('Скорость света');
-  }else {
+  } else {
     console.log('Субсветовая скорость');
   }
 }
-checkSpeed(390000)
-checkSpeed(90000)
-checkSpeed(299792)
+checkSpeed(390000);
+checkSpeed(90000);
+checkSpeed(299792);
 
 //Вывод в консоль лог: покупка геодезического оборудования
 const productName = 'Тахеомерт Sokkia FX201';
@@ -31,12 +31,12 @@ function buyProduct(myBalance) {
     console.log(`Вам не хватает ${difference}$, пополните баланс`);
   }
 }
-buyProduct(250_000)
-buyProduct(2_500_000)
+buyProduct(250_000);
+buyProduct(2_500_000);
 
 //Функция проверки соотвествия цвета (Создать 1 функцию и именовать её по своему усмотрению)
 
-const myFavoriteColor = 'red'
+const myFavoriteColor = 'red';
 function buyThings(colore) {
   if (colore === myFavoriteColor) {
     console.log('Отлично! Покупаю, мой любимы цвет');
@@ -44,11 +44,11 @@ function buyThings(colore) {
     console.log('Нет, нет! Уберите(((');
   }
 }
-buyThings('blue')
-buyThings('red')
+buyThings('blue');
+buyThings('red');
 
 //Создать 3 переменных
 
 //productName = 'Гель';
 //productPrice = 2_500;
-//myFavoriteColor = 'red'
+//myFavoriteColor = 'red';
